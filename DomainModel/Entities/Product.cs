@@ -1,9 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace DomainModel.Entities
 {
+    [Table("Products")]
     public class Product
     {
         public int ProductID { get; set; }

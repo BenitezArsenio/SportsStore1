@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DomainModel.Concrete
 {
-    class FakeProductsRepository : IProductsRepository
+    public class FakeProductsRepository : IProductsRepository
     {
         private static IQueryable<Product> fakeProducts = new List<Product>
         {

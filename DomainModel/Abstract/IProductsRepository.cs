@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DomainModel.Abstract
 {
-    interface IProductsRepository
+    public interface IProductsRepository
     {
         IQueryable<Product> Products { get; }
     }
